@@ -68,9 +68,11 @@ kafka-reassign-partitions.sh \
 
 Выполнить команды, указанные в [commands.sh](task_two%2Fcommands.sh)
 
+При выполнении скриптов задать пароли: password
+
 Cоздание топиков
 ```bash
-kafka-topics --bootstrap-server localhost:9093 \
+kafka-topics --bootstrap-server localhost:9092 \
   --create \
   --topic topic-1 \
   --partitions 3 \
